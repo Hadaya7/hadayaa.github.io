@@ -1,0 +1,238 @@
+body {
+ background: url('cover-edu.jpg') no-repeat;
+ background-size: cover;
+ font-family: Arial;
+ }
+
+ 
+ #box_b {
+width: 1010px;
+height: 150px;
+padding: 0px;
+margin-left: 155px;
+background-color: white;
+opacity: .8; 
+}
+
+#l_r {
+width: 1000px;
+margin: 0 auto;
+position: left;
+color: black;
+}
+
+#menu {
+width: 100%;
+height: 60px;
+margin-left: 860px;
+margin-top: -100px;
+color: black;
+}
+
+#menu menu-content {
+width: 200px;
+height: 60px;
+float: right;
+font-family: Arial;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: -0.05em;
+position: relative;
+margin-left: 200px;
+color: black;
+}
+
+#menu menu-content a {
+color: black;
+text-decoration: none;
+}
+
+#box_b img {
+margin-left: 50px;
+width: 200px;
+height: 140px;
+}
+
+#box_b h1 {
+width: 550px;
+height: 30px;
+text-align: center;
+color: black;
+margin-left: 230px;
+margin-top: -80px;
+}
+
+
+#container {
+margin-top: 25px;
+width: 1000px;
+height: 500px;
+overflow: hidden;
+margin-left: 160px;
+}
+
+
+
+#container_a {
+margin-top: 5px;
+width: 1000px;
+height: 300px;
+margin-left: 160px;
+background-color: white;
+opacity: .8; 
+margin-top: 5px;
+}
+
+
+#apply {
+width: 380px;
+height: 140px;
+margin-left: 5px;
+margin-top: -95px;
+background-color: #99B1E7;
+opacity: .8; 
+}
+
+#visa {
+width: 380px;
+height: 140px;
+margin-left: 5px;
+margin-top: 5px;
+background-color: #CDE843;
+opacity: .8; 
+}
+
+
+#w_box {
+width: 580px;
+height: 100px;
+margin-left: 400px;
+margin-top: 5px;
+background-color: white;
+opacity: .8; 
+}
+
+#li a{
+margin-top: 10px;
+}
+
+#container_b {
+margin-top: 5px;
+width: 1000px;
+height: 20px;
+margin-left: 160px;
+background-color: #C3EFE1;
+opacity: .8; 
+margin-top: 5px;
+}
+
+#b_a {
+text-align: center;	
+width: 580px;
+height: 20px;
+margin-left: 400px;
+margin-top: 5px;
+background-color: #C3EFE1;
+opacity: .8; 
+}
+
+
+
+img
+{
+max-width: 100%;
+max-height: 100%;
+}
+
+
+#sliderbox {
+	position: relative;
+	width: 3200px;
+	animation-name: slideranimation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+#sliderbox img {
+ float:left;
+ height: 500px;
+ width: 1000px;
+}
+
+
+@keyframes slideranimation {
+ 
+ 0% 
+ {
+  left: 0px;
+ }
+ 
+ 20% 
+ {
+  left: 0px;
+ }
+ 
+ 25%
+ {
+  left: -1000px;
+ }
+ 
+ 45% {
+ left: -1000px;
+ }
+ 
+ 50% 
+ {
+  left: -00px;
+ }
+ 
+ 70%
+ {
+  left: -2000px;
+ }
+
+
+ 
+}
+	
+ ul {
+	 margin: 0px;
+	 padding: 0px;
+	 list-style: none;
+	 margin-left: 155px;
+	 margin-top: 5px;
+	 }
+ 
+ ul li {
+	 float: left;
+	 width: 200px;
+	 height: 40px;
+	 background-color: black;
+	 opacity: .8;
+	 line-height: 40px;
+	 text-align: center;
+	 font-size: 20px;
+	 margin-right: 2px;
+ }
+ 
+ ul li a {
+	 text-decoration: none;
+	 color: white;
+	 display: block;
+ }
+ 
+ ul li a:hover {
+	 background-color: blue;
+ }
+ 
+ ul li ul li {
+	 display: none;
+ }
+ 
+ ul li:hover ul li {
+	 display: block;
+ }
+ 
+ 
+ 
+ 
